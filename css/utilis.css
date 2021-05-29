@@ -1,0 +1,25 @@
+.fontU{
+    font-family: var(--ubanto);
+}
+.fontR{
+    font-family: var(--robotmono);
+}
+.flex
+{
+    display: flex;
+}
+.layout
+{
+    position: relative;
+    height: 8em;
+
+}
+.font-size{
+    font-size: 2em;
+}
+.grid{
+    display: grid;
+}
+.text-center{
+    text-align: center;
+}

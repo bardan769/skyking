@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu+Mono&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --robotmono: "Roboto Mono", monospace;
+  --ubanto: "Ubuntu Mono", monospace;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  height: 7em;
+  top: 0;
+}
+
+nav {
+  background-image: linear-gradient(lightgreen, white);
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo svg {
+  width: 12em;
+  margin-bottom: 2em;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.search-bar {
+  position: relative;
+}
+#nav-searchbar {
+  padding: 0.8em 12em 0.8em 2.5em;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: #dfeced;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.nav-right .login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login a {
+  text-decoration: none;
+  font-size: 1.2em;
+  margin-right: 2em;
+  color: black;
+  position: relative;
+  
+}
+.login a:first-child::after{
+  content: '';
+  transform: scale(0);
+}
+.login a:first-child:hover::after{
+
+  position: absolute;
+  height: 2px;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: scale(1);
+  /* transform-origin: left; */
+  transition: transform 250ms ease-in-out;
+}
+.link-btn {
+  text-decoration: none;
+  border: 2px solid lightgreen;
+  padding: 0.7em;
+  border-radius: 10px;
+  color: darkgreen;
+}
+.nav-right-start:hover {
+  background-color: lime;
+  color: black;
+  border: 2px solid lime;
+  color: white;
+}
+.btn {
+  font-size: 1rem;
+  width: 2.5em;
+  padding: 5px;
+  background: transparent;
+  border-radius: 50%;
+  border: 0;
+  position: absolute;
+  left: 2%;
+  top: 22%;
+  cursor: pointer;
+}
+.btn i {
+  color: #237323;
+}
+.chat {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.chat svg {
+  width: 5em;
+  height: 5em;
+  color: #480202;
+  background: green;
+  border-radius: 50%;
+  padding: 0.4em;
+  margin: 1em 1em;
+  cursor: pointer;
+}
+
+.hero{
+  width: 95vw;
+  height: 78vh;
+}
+.hero-left{
+  padding: 3em 3em;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.hero-left .head{
+  margin: 5em 0 0 0;
+}
+
+.hero-left h1{
+  padding: 3px;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+
+.hero-left-start{
+  /* padding: 0; */
+  padding: 0.9em 3.5em;
+  color: white;
+  background-image: linear-gradient(lime,lightblue);
+  font-weight: 600;
+}
+.hero-link{
+  margin: .7em 0;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+.text{
+  padding: 1.5em 0.5em;
+  padding-right: 15em;
+}
+.text span{
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.hero-right img{
+  width: 50em;
+height: 33.5em;
+border-radius: 20px;
+}
+
+.works-title .works-head{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.3em;
+ 
+}
+
+.works-title{
+  place-items: center;
+}
+.works-title h2{
+  text-transform: capitalize;
+}
+
+.works-title p,h2{
+  padding: 0.6em 0;
+}
+.explore{
+  grid-template-columns: auto auto auto;
+}
+
+.explore .explore-inter{
+  padding: 2em 0;
+  margin: 1em 0;
+  width: 33.333333333333333333333333333%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+.explore .explore-inter h3{
+  font-weight: 600;
+  font-size: 1.4em;
+}
+.explore .explore-inter p{
+  font-size: 1.3em;
+}
+
+.explore-logo{
+  width: 5em;
+  font-weight: 0;
+  align-self: center;
+}
+.explore-logo img{
+  margin-bottom: 1em;
+  width: 100%;
+}
+#chat-img{
+  background-color: white;
+  color: white;
+}
+.content{
+  padding-top: 2em;
+}
+.inside-plants{
+  display: flex;
+  padding: 1em 3em;
+
+}
+.inside-plants figure img{
+  width: 27em;
+  border-radius: 20px;
+}
