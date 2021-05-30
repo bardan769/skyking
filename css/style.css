@@ -122,7 +122,7 @@ nav {
   padding: 0.4em;
   margin: 1em 1em;
   cursor: pointer;
-}
+  box-shadow: 5px 5px 18px black;}
 
 .hero{
   width: 95vw;
@@ -222,17 +222,20 @@ border-radius: 20px;
   color: white;
 }
 .content{
+  padding: 1.2em;
   padding-top: 2em;
 }
 .inside-plants{
   display: flex;
   padding: 1em 3em;
+  justify-content: center;
 
 }
 .inside-plants figure img{
   width: 20em;
   border-radius: 20px;
   padding-left: 0.3em;
+  margin-right: 5px;
 }
 .inside-plants figure figcaption{
   font-size: 1.1em;
@@ -242,14 +245,17 @@ border-radius: 20px;
 }
 #longimg{
   height: 13em;
-  width: 20em;
+  width: 17em;
 }
 .plants-head{
   margin-left: 2em;
 }
 .plants-head h1{
   font-size: 3em;
+  margin: 0.5em 0;
 }
 .plants-head p{
-  font-size: 1.2em;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 10px 5px;
 }
