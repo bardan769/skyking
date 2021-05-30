@@ -230,6 +230,26 @@ border-radius: 20px;
 
 }
 .inside-plants figure img{
-  width: 27em;
+  width: 20em;
   border-radius: 20px;
+  padding-left: 0.3em;
+}
+.inside-plants figure figcaption{
+  font-size: 1.1em;
+  font-weight: bolder;
+  padding-top: 0.3em;
+  text-align: center;
+}
+#longimg{
+  height: 13em;
+  width: 20em;
+}
+.plants-head{
+  margin-left: 2em;
+}
+.plants-head h1{
+  font-size: 3em;
+}
+.plants-head p{
+  font-size: 1.2em;
 }
