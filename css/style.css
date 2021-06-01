@@ -63,6 +63,10 @@ nav {
   position: relative;
   
 }
+.login a:hover{
+  font-size: 1.24em;
+  font-weight: 1000;
+}
 .login a:first-child::after{
   content: '';
   transform: scale(0);
@@ -258,4 +262,48 @@ border-radius: 20px;
   font-size: 1.5em;
   font-weight: 600;
   margin: 10px 5px;
+}
+
+footer{
+  background-color: bisque;
+  width: 100%;
+}
+.EAS{
+  grid-template-columns: 16em 16em 16em;
+  grid-gap: 9em;
+  margin-left: 4em;
+  padding: 20px;
+}
+.EAS div h2{
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.EAS ul{
+  padding-left: 0.1em;
+  margin-left: 0.2px;
+}
+.EAS div ul li{
+  list-style: none;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+.EAS div ul li a:hover{
+  text-decoration: underline 2px black;
+}
+.EAS ul li a{
+  text-decoration: none;
+  color: rgb(34, 33, 33);
+  font-size: 1.5em;
+}
+.last-thing{
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.icons div img{
+  width: 2.5em;
+}
+.icons{
+  width: 100%;
+  justify-content: flex-end;
 }
