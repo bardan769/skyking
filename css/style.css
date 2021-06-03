@@ -170,15 +170,16 @@ nav {
   font-weight: 500;
 }
 .hero-right img {
-  width: 50em;
-  height: 33.5em;
+  width: 65em;
+  height: 40.5em;
   border-radius: 20px;
+  margin-top: 2em;
 }
 
 .works-title .works-head {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 1.3em;
+  font-size: 2.3em;
 }
 
 .works-title {
@@ -186,13 +187,17 @@ nav {
 }
 .works-title h2 {
   text-transform: capitalize;
+  margin-bottom: 0.5em;
 }
 
 .works-title p,
 h2 {
   padding: 0.6em 0;
+  font-size: 1.9em;
 }
 .explore {
+  margin-top: 1em;
+  margin-bottom: 10em;
   grid-template-columns: auto auto auto;
 }
 
@@ -203,10 +208,11 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-self: center;
+  font-size: 1.2em;
 }
 .explore .explore-inter h3 {
   font-weight: 600;
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 .explore .explore-inter p {
   font-size: 1.3em;
