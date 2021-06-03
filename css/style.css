@@ -232,7 +232,7 @@ h2 {
 .inside-plants {
   display: flex;
   padding: 1em 3em;
-  justify-content: center;
+  justify-content: space-between;
 }
 .inside-plants figure img {
   width: 20em;
