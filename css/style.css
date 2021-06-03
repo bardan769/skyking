@@ -26,6 +26,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 1.3em;
 }
 .logo svg {
   width: 12em;
@@ -61,18 +62,16 @@ nav {
   margin-right: 2em;
   color: black;
   position: relative;
-  
 }
-.login a:hover{
+.login a:hover {
   font-size: 1.24em;
   font-weight: 1000;
 }
-.login a:first-child::after{
-  content: '';
+.login a:first-child::after {
+  content: "";
   transform: scale(0);
 }
-.login a:first-child:hover::after{
-
+.login a:first-child:hover::after {
   position: absolute;
   height: 2px;
   background-color: black;
@@ -97,16 +96,16 @@ nav {
   color: white;
 }
 .btn {
-  font-size: 1rem;
   width: 2.5em;
   padding: 5px;
   background: transparent;
   border-radius: 50%;
   border: 0;
   position: absolute;
-  left: 2%;
-  top: 22%;
+  left: 0.8%;
+  top: 20%;
   cursor: pointer;
+  font-size: 1.2em;
 }
 .btn i {
   color: #237323;
@@ -126,77 +125,78 @@ nav {
   padding: 0.4em;
   margin: 1em 1em;
   cursor: pointer;
-  box-shadow: 5px 5px 18px black;}
+  box-shadow: 5px 5px 18px black;
+}
 
-.hero{
+.hero {
   width: 95vw;
   height: 78vh;
 }
-.hero-left{
+.hero-left {
   padding: 3em 3em;
   width: 50%;
   height: 100%;
   flex-direction: column;
-  /* justify-content: center; */
+  font-size: 1.4em;
 }
-.hero-left .head{
+.hero-left .head {
   margin: 5em 0 0 0;
 }
 
-.hero-left h1{
+.hero-left h1 {
   padding: 3px;
   font-weight: 700;
   font-size: 2.25rem;
 }
 
-.hero-left-start{
+.hero-left-start {
   /* padding: 0; */
   padding: 0.9em 3.5em;
   color: white;
-  background-image: linear-gradient(lime,lightblue);
+  background-image: linear-gradient(lime, lightblue);
   font-weight: 600;
 }
-.hero-link{
-  margin: .7em 0;
+.hero-link {
+  margin: 0.7em 0;
   font-size: 1.1em;
   font-weight: 500;
 }
-.text{
+.text {
   padding: 1.5em 0.5em;
   padding-right: 15em;
 }
-.text span{
+.text span {
   font-size: 1.3em;
   font-weight: 500;
 }
-.hero-right img{
+.hero-right img {
   width: 50em;
-height: 33.5em;
-border-radius: 20px;
+  height: 33.5em;
+  border-radius: 20px;
 }
 
-.works-title .works-head{
+.works-title .works-head {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1.3em;
- 
 }
 
-.works-title{
+.works-title {
   place-items: center;
 }
-.works-title h2{
+.works-title h2 {
   text-transform: capitalize;
 }
 
-.works-title p,h2{
+.works-title p,
+h2 {
   padding: 0.6em 0;
 }
-.explore{
+.explore {
   grid-template-columns: auto auto auto;
 }
 
-.explore .explore-inter{
+.explore .explore-inter {
   padding: 2em 0;
   margin: 1em 0;
   width: 33.333333333333333333333333333%;
@@ -204,106 +204,117 @@ border-radius: 20px;
   flex-direction: column;
   justify-self: center;
 }
-.explore .explore-inter h3{
+.explore .explore-inter h3 {
   font-weight: 600;
   font-size: 1.4em;
 }
-.explore .explore-inter p{
+.explore .explore-inter p {
   font-size: 1.3em;
 }
 
-.explore-logo{
+.explore-logo {
   width: 5em;
   font-weight: 0;
   align-self: center;
 }
-.explore-logo img{
+.explore-logo img {
   margin-bottom: 1em;
   width: 100%;
 }
-#chat-img{
+#chat-img {
   background-color: white;
   color: white;
 }
-.content{
+.content {
   padding: 1.2em;
   padding-top: 2em;
 }
-.inside-plants{
+.inside-plants {
   display: flex;
   padding: 1em 3em;
   justify-content: center;
-
 }
-.inside-plants figure img{
+.inside-plants figure img {
   width: 20em;
   border-radius: 20px;
   padding-left: 0.3em;
   margin-right: 5px;
 }
-.inside-plants figure figcaption{
+.inside-plants figure figcaption {
   font-size: 1.1em;
   font-weight: bolder;
   padding-top: 0.3em;
   text-align: center;
 }
-#longimg{
+#longimg {
   height: 13em;
   width: 17em;
 }
-.plants-head{
+.plants-head {
   margin-left: 2em;
 }
-.plants-head h1{
+.plants-head h1 {
   font-size: 3em;
   margin: 0.5em 0;
 }
-.plants-head p{
+.plants-head p {
   font-size: 1.5em;
   font-weight: 600;
   margin: 10px 5px;
 }
 
-footer{
+footer {
   background-color: bisque;
   width: 100%;
 }
-.EAS{
+.EAS {
   grid-template-columns: 16em 16em 16em;
   grid-gap: 9em;
   margin-left: 4em;
   padding: 20px;
 }
-.EAS div h2{
+.EAS div h2 {
   margin-bottom: 30px;
   font-weight: 700;
 }
-.EAS ul{
+.EAS ul {
   padding-left: 0.1em;
   margin-left: 0.2px;
 }
-.EAS div ul li{
+.EAS div ul li {
   list-style: none;
   text-transform: capitalize;
   margin: 10px 0;
 }
-.EAS div ul li a:hover{
+.EAS div ul li a:hover {
   text-decoration: underline 2px black;
 }
-.EAS ul li a{
+.EAS ul li a {
   text-decoration: none;
   color: rgb(34, 33, 33);
   font-size: 1.5em;
+  width: 100%;
 }
-.last-thing{
+.last-thing {
   width: 100%;
   padding: 1em;
   margin-bottom: 1em;
+  margin-top: 1.5em;
+  margin-left: 2em;
 }
-.icons div img{
+.last-thing p {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.icons div img {
   width: 2.5em;
 }
-.icons{
+.icons {
   width: 100%;
   justify-content: flex-end;
+  margin-right: 10em;
+  margin-bottom: 1em;
+}
+.icons div {
+  margin: 1.5em;
 }
